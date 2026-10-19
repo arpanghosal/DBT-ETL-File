@@ -26,6 +26,16 @@ Repository aims to serve as valuable learning resources to grasp the fundamental
 
 By utilizing dbt's modeling, sourcing, testing, snapshotting, seeding, macro, and documentation capabilities, data teams can streamline their data transformation workflows, improve data quality, and enhance collaboration among team members.
 
+## Tutorial Section
+
+This project now includes a dedicated tutorial area based on the current dbt workspace:
+
+- [tutorial/README.md](/Users/arpanghosal/dbt/dbt-learn/tutorial/README.md) - overview and suggested learning path
+- [tutorial/01-project-tour.md](/Users/arpanghosal/dbt/dbt-learn/tutorial/01-project-tour.md) - walkthrough of the current project structure
+- [tutorial/02-model-flow.md](/Users/arpanghosal/dbt/dbt-learn/tutorial/02-model-flow.md) - how data moves from sources to marts
+- [tutorial/03-basic-dbtl-workflow.md](/Users/arpanghosal/dbt/dbt-learn/tutorial/03-basic-dbtl-workflow.md) - dbt command basics and the project lifecycle
+- [tutorial/04-where-to-edit-what.md](/Users/arpanghosal/dbt/dbt-learn/tutorial/04-where-to-edit-what.md) - a quick guide to editing the right file in this workspace
+
 ### Code Clean Up Tips: 
 - First list import CTEs e.g. orders as, payments as (these should be relatively simple e.g. selects with where statemetns), then Logital CTEs, then Final CTEs, then simple SELECT statement.
 - Implement CTE with WITH to organise code
